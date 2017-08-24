@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" />
-        <title>thisisj0rdn</title>
-        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
-    </head>
-    <body>
+        <link rel="stylesheet" href="/styles/style.css" />
+        
+        <?php include 'questions.php' ?>
+
+        </div>
     </body>
 </html>
