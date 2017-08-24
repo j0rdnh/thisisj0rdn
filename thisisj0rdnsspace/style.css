@@ -1,0 +1,18 @@
+@import "normalize.css";
+
+div#image {
+    margin: auto;
+    width: 90%;
+}
+
+div#text {
+    text-align: center;
+}
+
+img.under {
+    width: 100%;
+}
+
+p:hover {
+  color: red;
+}
