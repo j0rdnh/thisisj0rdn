@@ -23,19 +23,27 @@
 
 // Place any jQuery/helper plugins in here.
 
-// Packery
-(function($){
-  $(document).ready(function() {
-    var $grid = $('.grid').packery({
-      // options
-      itemSelector: '.grid-item',
-      gutter: '.gutter-sizer',
-      columnWidth: '.grid-sizer',
-      percentPosition: true
-    });
-
-    $grid.imagesLoaded().progress( function() {
-      $grid.packery();
-    });
+$(document).ready(function () {
+  var $grid = $('.grid').packery({
+    // options
+    itemSelector: '.grid-item',
+    gutter: '.gutter-sizer',
+    columnWidth: '.grid-sizer',
+    percentPosition: true,
   });
-}(jQuery));
+
+  $grid.imagesLoaded().progress(function() {
+    $grid.packery('layout');
+  });
+
+  //Disable right-click
+  $('#main-grid').on('contextmenu',function(e){
+    return false;
+  });
+
+  //Disable cut, copy, paste
+  $('#main-grid').bind('cut copy paste', function (e) {
+    e.preventDefault();
+  });
+});
+
