@@ -37,12 +37,12 @@ $(document).ready(function () {
   });
 
   //Disable right-click
-  $('#main-grid').on('contextmenu',function(e){
+  $('.grid-item').on('contextmenu',function(e){
     return false;
   });
 
   //Disable cut, copy, paste
-  $('#main-grid').bind('cut copy paste', function (e) {
+  $('.grid-item').bind('cut copy paste', function (e) {
     e.preventDefault();
   });
 });
