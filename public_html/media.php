@@ -1,5 +1,4 @@
-<div>
-  <?php
+<?php
 
 $p = "<b>PICTURED: </b>";
 
@@ -80,5 +79,4 @@ $rawmedia = [
   ["raw/staticlineglitch.m4v", $raw, "{$p}"],
   ["raw/greenstrobe.m4v", $raw, "{$p}"],
 ];
-
-$images = array_merge($tf2017media, $tsp180421media, $rawmedia);?>
+?>
