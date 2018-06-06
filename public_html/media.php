@@ -4,7 +4,6 @@ $p = "<b>PICTURED: </b>";
 
 $tf2017 =
   "<h1>TERRY FEST 2017</h1>
-  <br>
   <p>17.08.04-17.08.05 @ Awful House in Kansas City, MO</p>
   <p><a href=\"\">MORE INFO</a></p>";
 $tf2017media = [
@@ -27,7 +26,6 @@ $tf2017media = [
 
 $tsp180421 =
   "<h1>TSP</h1>
-  <br>
   <p>18.04.21 @ Lacquer in West Philadelphia, PA</p>
   <p><a href=\"\">MORE INFO</a></p>";
 $tsp180421media = [
