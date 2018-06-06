@@ -1,6 +1,7 @@
 <?php 
 include "header.php";
 include "media.php";
+include "nav.php";
 
 $images = array_merge($tf2017media, $tsp180421media, $rawmedia);
 
