@@ -1,0 +1,46 @@
+# The humans responsible & technology colophon
+
+# TEAM
+
+       _,                       _,_          _,_                        ,oa*HHHH*a,
+     .AHAo, .mAHHHHAo.        .AHHAo,      .AHHAo,                   ,~*dHHHHHHHHHHH,
+    <HHHHHHXHHHHHHHHHHH>     <HHHHH`      <HHHHH`                  ,dH`        `'*HHHH
+     `*HHHH      `"HH"        `HHHH        `HHHH                  dHHH            HHHH
+       HHHH        `           HHHH         HHHH                  HHHH            HHHH
+       HHHH                    HHHH         HHHH                  HHHH            HHHH
+       HHHHHHHHHHHHH>          HHHH         HHHH                  HHHH            HHHH
+       HHHHHHHHHHH"            HHHH         HHHH                  HHHH            HHHH
+       HHHH                    HHHH         HHHH                  HHHH            HHHH
+       HHHH                    HHHH         HHHH                  HHHH            HHHH
+       HHHH                    HHHH         HHHH                  HHHH            HHH*
+       HHHH                    HHHH         HHHH                  HHHHo,_        ,H*`
+       HH"                     HH"          HHHHHHHHHHHHHHHH>     `"HHHHHHHHHHHb*~`
+       `                       `            HHHHHHHHHHHHHH"         `"^*HHHH*^`
+
+# THANKS
+
+    #============TERRY RADIO============#
+    |                                   G
+    M        .odA88888888888Abo.        E
+    U     d88888888888888888888888b     T
+    S   d888888888888888888888888888b   
+    I  d88888888888888888888888888888b  I
+    C  8888*"~~"*88888888888*"~~"*8888  N
+       88I[       "8888888"       ]I88 
+    I  "888b.      "88888"      .d888"  T
+    S   ^8888b.     J888L     .d8888^   H
+          ^8888b==d8888888b==d8888^     E
+    S       ^8888888888888888888^      
+    I         ^*888L.   .J888*^         C
+    C            "^*88888*^"            H
+    K                                   A
+    |        BEST INTERNET RADIO        T
+    #========www.terryradio.biz=========#
+
+    Contributors to video/photographic documentation
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, Packery
+    
