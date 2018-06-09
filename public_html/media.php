@@ -60,7 +60,6 @@ $rawmedia = [
   ["raw/flarss.m4v", $raw, "{$p}"],
   ["raw/tip10.m4v", $raw, "{$p}"],
   ["raw/cross5.m4v", $raw, "{$p}"],
-  ["raw/staticglitch.m4v", $raw, "{$p}"],
   ["raw/sunset-2.m4v", $raw, "{$p}"],
   ["raw/plant-1.m4v", $raw, "{$p}"],
   ["raw/gt-3.m4v", $raw, "{$p}"],

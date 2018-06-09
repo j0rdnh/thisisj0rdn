@@ -36,6 +36,14 @@ $(document).ready(function () {
     $grid.packery('layout');
   });
 
+  var pckry = $grid.data('packery');
+
+  $grid.infiniteScroll({
+    append: '.grid-item',
+    outlayer: pckry,
+    
+  })
+
   //Disable right-click
   $('.grid-item').on('contextmenu',function(e){
     return false;

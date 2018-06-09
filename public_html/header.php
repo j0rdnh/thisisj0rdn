@@ -11,4 +11,13 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:600,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="scripts/vendor/modernizr-3.6.0.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="scripts/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="scripts/vendor/packery.pkgd.js"></script>
+    <script src="scripts/vendor/imagesloaded.pkgd.js"></script>
+    <script src="scripts/vendor/infinite-scroll.pkgd.min.js"></script>
+    <script src="scripts/plugins.js"></script>
 </head>

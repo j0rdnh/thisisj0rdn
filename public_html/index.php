@@ -17,6 +17,11 @@ include "main_grid.php";
     
 ?>
 
-</div>
+</div> <!-- end grid -->
+<div class="main-nav">
+    <ul>
+      <li><a href="allimages.php" class=".main-button">SEE ALL</a></li>
+    </ul>
+  </div>
 
 <?php include "footer.php"; ?>

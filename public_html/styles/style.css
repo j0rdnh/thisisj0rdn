@@ -57,9 +57,10 @@ body {
   background: rgb(0, 0, 255);
 }
 
-/* ---- main nav ---- */
+/* ---- nav ---- */
 
-.main-nav ul {
+.main-nav ul,
+.bottom-nav ul {
   list-style-type: none;
   margin-top: 2%;
   padding: 0;
@@ -67,11 +68,13 @@ body {
   background-color: rgb(0, 0, 255);
 }
 
-.main-nav li {
+.main-nav li,
+.bottom-nav li {
   float: left;
 }
 
-.main-nav li a {
+.main-nav li a,
+.bottom-nav li a {
   display: block;
   color: rgb(0, 255, 0);
   font-family: 'Overpass Mono', monospace;
@@ -81,12 +84,14 @@ body {
   text-decoration: none;
 }
 
-.main-nav li a:hover:not(.active) {
+.main-nav li a:hover:not(.active),
+.bottom-nav li a:hover:not(.active) {
   background-color: white;
   color: rgb(0, 0, 255);
 }
 
-.main-nav .active {
+.main-nav .active,
+.bottom-nav .active {
   background-color: black;
   color: rgb(0, 0, 255);
 }
@@ -115,6 +120,8 @@ body {
 .grid-item { float: top; }
 
 .gutter-sizer { width: 1%; }
+
+/* ---- other ---- */
 
 /* ---- footer ----*/
 
