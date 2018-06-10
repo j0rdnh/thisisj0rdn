@@ -18,7 +18,7 @@ include "main_grid.php";
 ?>
 
 </div> <!-- end grid -->
-<div class="main-nav">
+<div id="bottom-nav" class="main-nav">
     <ul>
       <li><a href="allimages.php" class=".main-button">SEE ALL</a></li>
     </ul>
