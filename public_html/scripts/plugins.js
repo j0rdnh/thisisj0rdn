@@ -19,7 +19,7 @@
       console[method] = noop;
     }
   }
-}());
+})();
 
 // Place any jQuery/helper plugins in here.
 
@@ -36,14 +36,6 @@ $(document).ready(function () {
     $grid.packery('layout');
   });
 
-  var pckry = $grid.data('packery');
-
-  $grid.infiniteScroll({
-    append: '.grid-item',
-    outlayer: pckry,
-    
-  })
-
   //Disable right-click
   $('.grid-item').on('contextmenu',function(e){
     return false;
@@ -53,5 +45,14 @@ $(document).ready(function () {
   $('.grid-item').bind('cut copy paste', function (e) {
     e.preventDefault();
   });
+
+  var vid = document.getElementById("video");
+
+  function enableAutoplay() {
+    vid.autoplay = true;
+    vid.load();
+  }
+
+  vid.addEventListener("canplay", enableAutoplay());
 });
 

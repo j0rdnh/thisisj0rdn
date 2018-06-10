@@ -18,6 +18,5 @@
     </script>
     <script src="scripts/vendor/packery.pkgd.js"></script>
     <script src="scripts/vendor/imagesloaded.pkgd.js"></script>
-    <script src="scripts/vendor/infinite-scroll.pkgd.min.js"></script>
     <script src="scripts/plugins.js"></script>
 </head>
